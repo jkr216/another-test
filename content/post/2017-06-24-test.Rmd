@@ -1,0 +1,14 @@
+---
+title: test
+author: ~
+date: '2017-06-24'
+slug: test
+categories: []
+tags: []
+---
+
+```{r}
+knitr::include_app("https://jkr216.shinyapps.io/Shiny-Flex-DB/", 
+  height = "600px")
+```
+

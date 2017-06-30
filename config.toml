@@ -18,6 +18,7 @@ theme = "hugo-icarus-theme"
 
 
 [params]
+    
     # Tell me who you are
     author = "Jonathan Regenstein"
     bio = "R finance guy at RStudio"
@@ -49,8 +50,13 @@ theme = "hugo-icarus-theme"
 # and "Tags" / "Categories" after them.
 [[params.menu]]
     before = true
-    label  = "Home"
+    label  = "Posts"
     link   = "/"
+    
+[[params.menu]]
+    before = false
+    label  = "Shiny Apps"
+    link   = "shinyapps/"
 
 [[params.menu]]
     before = false
